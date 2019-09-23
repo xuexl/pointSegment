@@ -35,8 +35,8 @@
       <widget class="QPushButton" name="btn_compress">
        <property name="geometry">
         <rect>
-         <x>610</x>
-         <y>40</y>
+         <x>670</x>
+         <y>60</y>
          <width>75</width>
          <height>23</height>
         </rect>
@@ -45,40 +45,145 @@
         <string>压缩</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="txt_radio">
+      <widget class="QLineEdit" name="txt_radio_1">
        <property name="geometry">
         <rect>
-         <x>370</x>
-         <y>40</y>
+         <x>120</x>
+         <y>10</y>
          <width>113</width>
          <height>20</height>
         </rect>
        </property>
       </widget>
-      <widget class="QLabel" name="label">
-       <property name="geometry">
-        <rect>
-         <x>290</x>
-         <y>40</y>
-         <width>54</width>
-         <height>12</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>压缩比</string>
-       </property>
-      </widget>
       <widget class="QPushButton" name="btn_view">
        <property name="geometry">
         <rect>
-         <x>730</x>
-         <y>40</y>
+         <x>790</x>
+         <y>60</y>
          <width>75</width>
          <height>23</height>
         </rect>
        </property>
        <property name="text">
         <string>展示</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_1">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>10</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>第一层</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="txt_radio_2">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>50</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>50</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>第二层</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="txt_radio_3">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>10</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_4">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>50</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>第四层</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="txt_radio_4">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>50</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_3">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>10</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>第三层</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_5">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>10</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>第五层</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="txt_radio_5">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>10</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btn_vtk">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>60</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>vtk</string>
        </property>
       </widget>
      </widget>

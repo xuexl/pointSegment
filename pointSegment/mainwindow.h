@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include  <pcl/visualization/pcl_visualizer.h>
+
 
 namespace Ui {
 class MainWindow;
@@ -18,15 +20,17 @@ public:
 private:
     Ui::MainWindow *ui;
     
+    pcl::visualization::PCLVisualizer::Ptr viewer;
+    
     
 private:
     void init();
-    
+    void bindEvent();
     
 private slots:
     void view();
     void compress();
-    
+    void vtk();
     
 };
 
